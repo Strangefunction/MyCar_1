@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/MySmartcar/Core/Src/freertos.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/MySmartcar/Core/Src/main.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MySmartcar/include/MPU6050/mpu6050.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MySmartcar/include/MPU6050/mpu6050.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MySmartcar/include/motor/car_control.c" charset="GBK" />
+  </component>
+</project>

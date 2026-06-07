@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="MySmartcar" targetName="MySmartcar.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-STM32MinGW" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="STM32MinGW" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f34f8efc-13fb-4fd3-a502-0e9118bacb30" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-STM32MinGW" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://D:/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/stdio.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/Src/main.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/MPU6050/mpu6050.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/MPU6050/mpu6050.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/NRF24L01/NRF24L01.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/NRF24L01/NRF24L01.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/motor/car_control.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/motor/pid.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/motor/pid.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/oled/oled.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/sensor/sensor.c" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/include/sensor/sensor.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2024" />
+    <option name="minorVersion" value="1.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2jgUuG6WupIMYuI5yLi22BTHMcN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "OpenOCD Download & Run.MySmartcar.elf.executor": "Run",
+    "OpenOCD 下载并运行.MySmartcar.elf.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "E:/Codes/clion_stm32/stm32_study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.MySmartcar.elf">
+    <configuration name="MySmartcar.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MySmartcar" TARGET_NAME="MySmartcar.elf" CONFIG_NAME="Debug-STM32MinGW" RUN_TARGET_PROJECT_NAME="MySmartcar" RUN_TARGET_NAME="MySmartcar.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySmartcar.elf" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MySmartcar" TARGET_NAME="MySmartcar.elf" CONFIG_NAME="Debug-STM32MinGW" version="1" RUN_TARGET_PROJECT_NAME="MySmartcar" RUN_TARGET_NAME="MySmartcar.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\Codes\clion_stm32\MySmartcar\stlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.MySmartcar.elf" />
+      <item itemvalue="OpenOCD 下载并运行.MySmartcar.elf" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f34f8efc-13fb-4fd3-a502-0e9118bacb30" name="Changes" comment="" />
+      <created>1721808434714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721808434714</updated>
+      <workItem from="1721808436057" duration="1174000" />
+      <workItem from="1721809648869" duration="168000" />
+      <workItem from="1721809824999" duration="753000" />
+      <workItem from="1721810593289" duration="743000" />
+      <workItem from="1721811352740" duration="1760000" />
+      <workItem from="1721883988450" duration="16983000" />
+      <workItem from="1721905311776" duration="820000" />
+      <workItem from="1721906189093" duration="56000" />
+      <workItem from="1721906259221" duration="2656000" />
+      <workItem from="1721908986875" duration="2480000" />
+      <workItem from="1736403778567" duration="3393000" />
+      <workItem from="1736407233967" duration="1481000" />
+      <workItem from="1736424905231" duration="20049000" />
+      <workItem from="1736572891216" duration="3376000" />
+      <workItem from="1736588873959" duration="2628000" />
+      <workItem from="1736689730506" duration="1224000" />
+      <workItem from="1736755924151" duration="2245000" />
+      <workItem from="1736865148672" duration="15000" />
+      <workItem from="1743831388465" duration="4312000" />
+      <workItem from="1743908069663" duration="7724000" />
+      <workItem from="1743998411012" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

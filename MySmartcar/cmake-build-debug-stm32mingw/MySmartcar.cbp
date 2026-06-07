@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MySmartcar"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MySmartcar.elf">
+				<Option output="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/MySmartcar.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/motor"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/oled"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/NRF24L01"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/sensor"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 MySmartcar.elf"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MySmartcar.elf/fast">
+				<Option output="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/MySmartcar.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/motor"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/oled"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/NRF24L01"/>
+					<Add directory="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/sensor"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 MySmartcar.elf/fast"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/mingw64/bin/mingw32-make.exe -f &quot;E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc/gpio.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc/i2c.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc/main.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc/spi.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc/stm32f1xx_it.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc/tim.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Inc/usart.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/gpio.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/i2c.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/main.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/spi.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/stm32f1xx_it.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/syscalls.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/sysmem.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/system_stm32f1xx.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/tim.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Src/usart.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Core/Startup/startup_stm32f103zetx.s">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/CMSIS/LICENSE.txt">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/dmpKey.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/dmpmap.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/inv_mpu.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/inv_mpu.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/inv_mpu_dmp_motion_driver.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/inv_mpu_dmp_motion_driver.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/mpu6050.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/mpu6050.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/mpu6050_k.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/MPU6050/mpu6050_k.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/NRF24L01/NRF24L01.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/NRF24L01/NRF24L01.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/motor/car_control.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/motor/car_control.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/motor/encoder.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/motor/encoder.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/motor/pid.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/motor/pid.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/oled/oled.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/oled/oled.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/oled/oled_gui.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/oled/oled_gui.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/oled/oledfont.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/sensor/sensor.c">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/include/sensor/sensor.h">
+			<Option target="MySmartcar.elf"/>
+		</Unit>
+		<Unit filename="E:/Codes/clion_stm32/MyCAR1111/MySmartcar/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

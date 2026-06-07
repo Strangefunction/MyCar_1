@@ -1,0 +1,14 @@
+"D:\CLion\CLion 2024.1.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" -S E:\Codes\clion_stm32\MyCAR1111\MySmartcar -B E:\Codes\clion_stm32\MyCAR1111\MySmartcar\cmake-build-debug-stm32mingw
+CMake Deprecation Warning:
+  Support for "Extra Generators" like
+
+    CodeBlocks
+
+  is deprecated and will be removed from a future version of CMake.  IDEs may
+  use the cmake-file-api(7) to view CMake-generated project build trees.
+
+
+-- Minimal optimization, debug info included
+-- Configuring done (0.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: E:/Codes/clion_stm32/MyCAR1111/MySmartcar/cmake-build-debug-stm32mingw
